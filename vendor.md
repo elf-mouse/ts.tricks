@@ -20,9 +20,9 @@ declare module 'package-dependencies-name' {
         num?: number;
         str?: string;
         bool?: boolean;
-        onClick?: {(event: any): void};
+        //onClick?: {(event: any): void};
         // or
-        onClick?(event: any) : void;
+        //onClick?(event: any) : void;
         // or
         onClick?: (event: any) => void;
     }
